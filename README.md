@@ -1,6 +1,6 @@
 # DayZ Discord Tickets
 
-DayZ Discord Tickets adds an in-game support panel for players and server staff. Tickets are stored on the DayZ server. An optional outgoing Discord webhook relays ticket activity to a staff channel.
+DayZ mod that adds in-game support tickets for players and staff, with optional Discord notifications.
 
 [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3832912523)
 
@@ -11,6 +11,12 @@ DayZ Discord Tickets adds an in-game support panel for players and server staff.
 - The panel supports English, Ukrainian, and German. Conversations and ticket lists are paginated, and the current conversation page can be copied.
 - Optional Discord notifications cover ticket creation, replies, and status changes. Built-in labels, statuses, and standard categories are in English. Player text and custom category labels retain their original wording.
 
+## Requirements and compatibility
+
+- Runtime dependencies are DayZ's `DZ_Data` and `DZ_Scripts` addons. CF and VPPAdminTools are optional and were present in the tested setup.
+- Version 1.0.3 was checked on Windows with DayZ 1.30.164289.70 and CF/VPPAdminTools. Server checks covered webhook payload creation. Other game builds and mod combinations have not been verified here.
+- DayZ Tools is required to package and sign a source build. Installation from Workshop uses the published package.
+
 ## Installation
 
 1. Subscribe to the Workshop item and install the same version on the server and all connecting clients.
@@ -19,7 +25,7 @@ DayZ Discord Tickets adds an in-game support panel for players and server staff.
 4. Start the server once to generate `$profile:DayZDiscordTickets/config.json`. Stop the server, edit the file, then restart it.
 5. Press **F7** in game. Select a category, enter a description, tick the confirmation box, and submit. Staff commands appear for SteamID64s listed in the mod's server configuration.
 
-## Server configuration
+## Configuration
 
 The [example configuration](config/config.example.json) uses English category labels and leaves Discord disabled. Copy settings into the server's generated configuration as needed.
 
@@ -37,13 +43,7 @@ Ticket descriptions and replies are limited to 2,000 characters. Discord message
 
 Back up `$profile:DayZDiscordTickets/tickets` before server maintenance. The server keeps two JSON revision slots per ticket.
 
-## Dependencies and compatibility
-
-- Runtime dependencies are DayZ's `DZ_Data` and `DZ_Scripts` addons. CF and VPPAdminTools are optional and were present in the tested setup.
-- Version 1.0.3 was checked on Windows with DayZ 1.30.164289.70 and CF/VPPAdminTools. Server checks covered webhook payload creation. Other game builds and mod combinations have not been verified here.
-- DayZ Tools is required to package and sign a source build. Installation from Workshop uses the published package.
-
-## Package from source
+## Build from source
 
 1. Extract `DZTickets.pbo` from the installed Workshop mod with a DayZ PBO tool. Copy `gui/fonts/sdf_MetronBook24.fnt` and `gui/fonts/sdf_MetronBook24.edds` from that PBO into `mod/DZTickets/gui/fonts/`. These game-derived assets stay local.
 2. In DayZ Tools Addon Builder, pack `mod/DZTickets` with the internal PBO prefix `DZTickets`. Use pack-only mode and include `.c`, `.layout`, `.xml`, `.json`, `.fnt`, and `.edds` resources.
