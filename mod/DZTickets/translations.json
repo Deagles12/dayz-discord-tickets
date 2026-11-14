@@ -1,0 +1,322 @@
+[
+  [
+    "ПІДТРИМКА",
+    "SUPPORT",
+    "SUPPORT"
+  ],
+  [
+    "Залишайтеся в грі. Ми на зв'язку.",
+    "Stay in game. We are here to help.",
+    "Bleib im Spiel. Wir helfen dir."
+  ],
+  [
+    "+ Нове звернення",
+    "+ New ticket",
+    "+ Neues Ticket"
+  ],
+  [
+    "МОЇ ЗВЕРНЕННЯ",
+    "MY TICKETS",
+    "MEINE TICKETS"
+  ],
+  [
+    "Поки що порожньо. Створіть перше звернення.",
+    "No tickets yet. Create your first ticket.",
+    "Noch keine Tickets. Erstelle dein erstes Ticket."
+  ],
+  [
+    "Відкрити",
+    "Open",
+    "Öffnen"
+  ],
+  [
+    "Оновити",
+    "Refresh",
+    "Aktualisieren"
+  ],
+  [
+    "Раніші звернення",
+    "Older tickets",
+    "Ältere Tickets"
+  ],
+  [
+    "Усі відкриті / Адмін",
+    "All open / Admin",
+    "Alle offenen / Admin"
+  ],
+  [
+    "Історія",
+    "History",
+    "Verlauf"
+  ],
+  [
+    "Нове звернення",
+    "New ticket",
+    "Neues Ticket"
+  ],
+  [
+    "Коротко опишіть проблему - адміністрація допоможе.",
+    "Describe the issue briefly. We will help.",
+    "Beschreibe kurz das Problem. Wir helfen dir."
+  ],
+  [
+    "КАТЕГОРІЯ",
+    "CATEGORY",
+    "KATEGORIE"
+  ],
+  [
+    "ЩО СТАЛОСЯ?",
+    "WHAT HAPPENED?",
+    "WAS IST PASSIERT?"
+  ],
+  [
+    "Я перевірив опис і підтверджую надсилання.",
+    "I checked the details and confirm submission.",
+    "Ich habe die Angaben geprüft und bestätige das Senden."
+  ],
+  [
+    "Надіслати звернення",
+    "Submit ticket",
+    "Ticket senden"
+  ],
+  [
+    "Дані гравця додадуться автоматично.",
+    "Player details are added automatically.",
+    "Spielerdaten werden automatisch ergänzt."
+  ],
+  [
+    "Листування",
+    "Conversation",
+    "Nachrichten"
+  ],
+  [
+    "Раніші повідомлення",
+    "Older messages",
+    "Ältere Nachrichten"
+  ],
+  [
+    "ВАША ВІДПОВІДЬ",
+    "YOUR REPLY",
+    "DEINE ANTWORT"
+  ],
+  [
+    "Взяти в роботу",
+    "Claim",
+    "Übernehmen"
+  ],
+  [
+    "Закрити тікет",
+    "Close ticket",
+    "Ticket schließen"
+  ],
+  [
+    "Відповісти",
+    "Reply",
+    "Antworten"
+  ],
+  [
+    "Підключення...",
+    "Connecting...",
+    "Verbinden..."
+  ],
+  [
+    "Завантаження...",
+    "Loading...",
+    "Laden..."
+  ],
+  [
+    "Нове",
+    "Open",
+    "Offen"
+  ],
+  [
+    "У роботі",
+    "In progress",
+    "In Bearbeitung"
+  ],
+  [
+    "Закрите",
+    "Closed",
+    "Geschlossen"
+  ],
+  [
+    "Підтримка",
+    "Support",
+    "Support"
+  ],
+  [
+    "Гравець",
+    "Player",
+    "Spieler"
+  ],
+  [
+    "Статус: ",
+    "Status: ",
+    "Status: "
+  ],
+  [
+    "Звернення #",
+    "Ticket #",
+    "Ticket #"
+  ],
+  [
+    "Тікет #",
+    "Ticket #",
+    "Ticket #"
+  ],
+  [
+    " збережено.",
+    " saved.",
+    " gespeichert."
+  ],
+  [
+    "Таймаут. Оновіть список перед повторним надсиланням.",
+    "Timed out. Refresh before submitting again.",
+    "Zeitüberschreitung. Vor erneutem Senden aktualisieren."
+  ],
+  [
+    "Ми тут, щоб допомогти. Опишіть, що сталося.",
+    "We are here to help. Tell us what happened.",
+    "Wir helfen dir. Beschreibe, was passiert ist."
+  ],
+  [
+    "Звернення закрито. Листування залишається в історії.",
+    "Ticket closed. Conversation saved in history.",
+    "Ticket geschlossen. Nachrichten bleiben im Verlauf."
+  ],
+  [
+    "Відповіді адміністрації з'являться тут автоматично.",
+    "Staff replies appear here automatically.",
+    "Antworten des Teams erscheinen hier automatisch."
+  ],
+  [
+    "Нове звернення. Оберіть категорію й опишіть ситуацію.",
+    "Choose a category and describe the issue.",
+    "Wähle eine Kategorie und beschreibe das Problem."
+  ],
+  [
+    "Поставте галочку підтвердження перед надсиланням.",
+    "Tick the confirmation box before submitting.",
+    "Bestätige das Kontrollkästchen vor dem Senden."
+  ],
+  [
+    "Спочатку відкрийте тікет.",
+    "Open a ticket first.",
+    "Öffne zuerst ein Ticket."
+  ],
+  [
+    "Нова відповідь або статус. F7 - відкрити підтримку.",
+    "New reply or status. F7 opens support.",
+    "Neue Antwort oder Status. F7 öffnet den Support."
+  ],
+  [
+    "Скарга",
+    "Complaint",
+    "Beschwerde"
+  ],
+  [
+    "Баг",
+    "Bug",
+    "Fehler"
+  ],
+  [
+    "Підозра на чітера",
+    "Suspected cheating",
+    "Cheat-Verdacht"
+  ],
+  [
+    "Інше",
+    "Other",
+    "Sonstiges"
+  ],
+  [
+    "Некоректний номер",
+    "Invalid number",
+    "Ungültige Nummer"
+  ],
+  [
+    "Тікет недоступний",
+    "Ticket unavailable",
+    "Ticket nicht verfügbar"
+  ],
+  [
+    "request_id вже використано для іншої операції",
+    "Request ID already used",
+    "Anfrage-ID bereits verwendet"
+  ],
+  [
+    "Підтвердьте звернення галочкою перед надсиланням",
+    "Confirm before submitting",
+    "Bestätige vor dem Senden"
+  ],
+  [
+    "Некоректний SteamID",
+    "Invalid SteamID",
+    "Ungültige SteamID"
+  ],
+  [
+    "Невідома категорія",
+    "Unknown category",
+    "Unbekannte Kategorie"
+  ],
+  [
+    "Досягнуто ліміт активних звернень",
+    "Active ticket limit reached",
+    "Limit offener Tickets erreicht"
+  ],
+  [
+    "Зачекайте перед створенням наступного тікета",
+    "Wait before creating another ticket",
+    "Warte vor dem nächsten Ticket"
+  ],
+  [
+    "Тікет уже закрито",
+    "Ticket already closed",
+    "Ticket bereits geschlossen"
+  ],
+  [
+    "Повідомлення надсилаються надто часто",
+    "Wait before sending again",
+    "Warte vor der nächsten Nachricht"
+  ],
+  [
+    "Потрібні права адміністратора",
+    "Admin access required",
+    "Adminrechte erforderlich"
+  ],
+  [
+    "Тікет уже взяв інший адміністратор",
+    "Another admin has claimed this ticket",
+    "Ein anderer Admin bearbeitet dieses Ticket"
+  ],
+  [
+    "Невідома операція",
+    "Unknown operation",
+    "Unbekannte Aktion"
+  ],
+  [
+    "Некоректний список гравців",
+    "Invalid player list",
+    "Ungültige Spielerliste"
+  ],
+  [
+    "Сервіс підтримки не налаштовано.",
+    "Support service is not configured.",
+    "Supportdienst nicht eingerichtet."
+  ],
+  [
+    "Зачекайте мить перед наступною дією.",
+    "Wait a moment before the next action.",
+    "Warte kurz vor der nächsten Aktion."
+  ],
+  [
+    "Черга заповнена. Спробуйте пізніше.",
+    "Queue full. Try again later.",
+    "Warteschlange voll. Versuche es später erneut."
+  ],
+  [
+    "Немає зв’язку. Перевірте історію перед повторним надсиланням.",
+    "Connection lost. Check history before resubmitting.",
+    "Keine Verbindung. Prüfe den Verlauf vor erneutem Senden."
+  ]
+]

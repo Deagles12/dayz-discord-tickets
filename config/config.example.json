@@ -1,0 +1,14 @@
+{
+  "admin_steam_ids": [],
+  "categories": [
+    "Complaint",
+    "Bug",
+    "Suspected cheating",
+    "Other"
+  ],
+  "max_active": 3,
+  "create_cooldown_seconds": 60,
+  "reply_cooldown_seconds": 3,
+  "discord_enabled": false,
+  "discord_webhook_url": ""
+}

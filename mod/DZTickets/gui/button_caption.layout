@@ -1,0 +1,16 @@
+TextWidgetClass ButtonCaption
+{
+ position 0 0
+ size 1 1
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ ignorepointer 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 14
+ "text halign" center
+ "text valign" center
+ color 0.949020 0.949020 0.949020 1
+}

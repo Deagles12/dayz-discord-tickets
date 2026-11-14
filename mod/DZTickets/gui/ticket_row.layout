@@ -1,0 +1,59 @@
+ButtonWidgetClass TicketRow
+{
+ position 0 0
+ size 1 44
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 1
+ hexactsize 0
+ vexactsize 1
+ visible 1
+ style Default
+ color 0.156863 0.172549 0.2 1
+{
+PanelWidgetClass TicketRowBackground
+{
+ position 0 0
+ size 1 1
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ ignorepointer 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.2 1
+}
+
+TextWidgetClass RowTitle
+{
+ position 0.039 3
+ size 0.922 21
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 1
+ hexactsize 0
+ vexactsize 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ color 0.949020 0.949020 0.949020 1
+ ignorepointer 1
+}
+TextWidgetClass RowStatus
+{
+ position 0.039 24
+ size 0.922 17
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 1
+ hexactsize 0
+ vexactsize 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ color 0.713725 0.733333 0.768627 1
+ ignorepointer 1
+}
+}
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modded_inputs>
+  <inputs>
+    <actions><input name="UADZTickets" loc="DayZ Tickets" /></actions>
+    <sorting name="DZTickets" loc="DayZ Tickets"><input name="UADZTickets" /></sorting>
+  </inputs>
+  <preset><input name="UADZTickets"><btn name="kF7" /></input></preset>
+</modded_inputs>

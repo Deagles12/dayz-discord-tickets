@@ -1,0 +1,2839 @@
+PanelWidgetClass DZTicketsRoot
+{
+ position 360 170
+ size 1200 740
+ halign left_ref
+ valign top_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ visible 1
+ style rover_sim_colorable
+ color 0.090196 0.098039 0.113725 1
+
+ {
+TextWidgetClass ButtonMeasure
+{
+ position 0.000000000 0.000000000
+ size 0.966666667 0.043243243
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 14
+ text ""
+ color 0.949020 0.949020 0.949020 1
+ ignorepointer 1
+ color 0 0 0 0
+
+}
+PanelWidgetClass Header
+{
+ position 0.016666667 0.027027027
+ size 0.966666667 0.075675676
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.125490 0.137255 0.160784 1
+
+ {
+TextWidgetClass Title
+{
+ position 0.010344828 0.071428571
+ size 0.551724138 0.500000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 20
+ text ""
+ color 0.949020 0.949020 0.949020 1
+ ignorepointer 1
+
+}
+TextWidgetClass Subtitle
+{
+ position 0.010344828 0.571428571
+ size 0.551724138 0.357142857
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 12
+ text ""
+ color 0.713725 0.733333 0.768627 1
+ ignorepointer 1
+
+}
+XComboBoxWidgetClass LanguagePicker
+{
+ position 0.820689655 0.142857143
+ size 0.131034483 0.714285714
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "gui/fonts/metronbook14"
+ style Default
+ color 1 1 1 1
+
+}
+ButtonWidgetClass Exit
+{
+ position 0.962068966 0.071428571
+ size 0.037931034 0.785714286
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass ExitBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.650980 0.113725 0.168627 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ExitEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.022727273
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ExitEdge1
+{
+ position 0.000000000 0.977272727
+ size 1.000000000 0.022727273
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ExitEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.022727273 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ExitEdge3
+{
+ position 0.977272727 0.000000000
+ size 0.022727273 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+ }
+}
+PanelWidgetClass Sidebar
+{
+ position 0.016666667 0.124324324
+ size 0.283333333 0.810810811
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.125490 0.137255 0.160784 1
+
+ {
+TextWidgetClass ListLabel
+{
+ position 0.047058824 0.020000000
+ size 0.905882353 0.033333333
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 17
+ text ""
+ color 0.949020 0.949020 0.949020 1
+ ignorepointer 1
+
+}
+ButtonWidgetClass NewTicket
+{
+ position 0.047058824 0.066666667
+ size 0.905882353 0.073333333
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass NewTicketBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.207843 0.341176 0.490196 1
+ ignorepointer 1
+
+}
+PanelWidgetClass NewTicketEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.022727273
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.568627 0.709804 0.909804 1
+ ignorepointer 1
+
+}
+PanelWidgetClass NewTicketEdge1
+{
+ position 0.000000000 0.977272727
+ size 1.000000000 0.022727273
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.568627 0.709804 0.909804 1
+ ignorepointer 1
+
+}
+PanelWidgetClass NewTicketEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.003246753 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.568627 0.709804 0.909804 1
+ ignorepointer 1
+
+}
+PanelWidgetClass NewTicketEdge3
+{
+ position 0.996753247 0.000000000
+ size 0.003246753 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.568627 0.709804 0.909804 1
+ ignorepointer 1
+
+}
+ }
+}
+TextListboxWidgetClass TicketList
+{
+ position 0.047058824 0.160000000
+ size 0.905882353 0.720000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ font "gui/fonts/metronbook14"
+ "title visible" 0
+ colums "text;100"
+ lines 9
+
+}
+MultilineTextWidgetClass EmptyList
+{
+ position 0.082352941 0.200000000
+ size 0.835294118 0.106666667
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 15
+ text ""
+ color 0.713725 0.733333 0.768627 1
+ ignorepointer 1
+ wrap 1
+
+}
+ButtonWidgetClass Mine
+{
+ position 0.047058824 0.906666667
+ size 0.364705882 0.066666667
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass MineBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+ ignorepointer 1
+
+}
+PanelWidgetClass MineEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass MineEdge1
+{
+ position 0.000000000 0.975000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass MineEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.008064516 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass MineEdge3
+{
+ position 0.991935484 0.000000000
+ size 0.008064516 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+ButtonWidgetClass SidebarToolsToggle
+{
+ position 0.541176471 0.906666667
+ size 0.411764706 0.066666667
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass SidebarToolsToggleBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+ ignorepointer 1
+
+}
+PanelWidgetClass SidebarToolsToggleEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass SidebarToolsToggleEdge1
+{
+ position 0.000000000 0.975000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass SidebarToolsToggleEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.007142857 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass SidebarToolsToggleEdge3
+{
+ position 0.992857143 0.000000000
+ size 0.007142857 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+PanelWidgetClass SidebarTools
+{
+ position 0.047058824 0.160000000
+ size 0.905882353 0.720000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.125490 0.137255 0.160784 1
+
+ {
+ButtonWidgetClass Open
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.092592593
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass OpenBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OpenEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OpenEdge1
+{
+ position 0.000000000 0.975000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OpenEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.003246753 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OpenEdge3
+{
+ position 0.996753247 0.000000000
+ size 0.003246753 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+ButtonWidgetClass OlderTickets
+{
+ position 0.000000000 0.120370370
+ size 1.000000000 0.092592593
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass OlderTicketsBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OlderTicketsEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OlderTicketsEdge1
+{
+ position 0.000000000 0.975000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OlderTicketsEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.003246753 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OlderTicketsEdge3
+{
+ position 0.996753247 0.000000000
+ size 0.003246753 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+PanelWidgetClass AdminFilter
+{
+ position 0.000000000 0.268518519
+ size 1.000000000 0.407407407
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.125490 0.137255 0.160784 1
+
+ {
+ButtonWidgetClass AllOpen
+{
+ position 0.000000000 0.000000000
+ size 0.779220779 0.227272727
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass AllOpenBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+ ignorepointer 1
+
+}
+PanelWidgetClass AllOpenEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass AllOpenEdge1
+{
+ position 0.000000000 0.975000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass AllOpenEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.004166667 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass AllOpenEdge3
+{
+ position 0.995833333 0.000000000
+ size 0.004166667 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+TextWidgetClass OwnerLabel
+{
+ position 0.000000000 0.295454545
+ size 1.000000000 0.090909091
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 12
+ text "SteamID64"
+ color 0.713725 0.733333 0.768627 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OwnerField
+{
+ position 0.000000000 0.431818182
+ size 1.000000000 0.227272727
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+
+ {
+PanelWidgetClass OwnerFieldEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OwnerFieldEdge1
+{
+ position 0.000000000 0.975000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OwnerFieldEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.003246753 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OwnerFieldEdge3
+{
+ position 0.996753247 0.000000000
+ size 0.003246753 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+EditBoxWidgetClass Owner
+{
+ position 0.038961039 0.200000000
+ size 0.922077922 0.600000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "gui/fonts/metronbook14"
+ color 1 1 1 1
+
+}
+ }
+}
+ButtonWidgetClass History
+{
+ position 0.000000000 0.727272727
+ size 1.000000000 0.227272727
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass HistoryBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+ ignorepointer 1
+
+}
+PanelWidgetClass HistoryEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass HistoryEdge1
+{
+ position 0.000000000 0.975000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass HistoryEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.003246753 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass HistoryEdge3
+{
+ position 0.996753247 0.000000000
+ size 0.003246753 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+PanelWidgetClass ComposePanel
+{
+ position 0.313333333 0.124324324
+ size 0.670000000 0.810810811
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.125490 0.137255 0.160784 1
+
+ {
+TextWidgetClass ComposeTitle
+{
+ position 0.019900498 0.026666667
+ size 0.960199005 0.046666667
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 17
+ text ""
+ color 0.949020 0.949020 0.949020 1
+ ignorepointer 1
+
+}
+TextWidgetClass CategoryLabel
+{
+ position 0.019900498 0.106666667
+ size 0.960199005 0.033333333
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 12
+ text ""
+ color 0.713725 0.733333 0.768627 1
+ ignorepointer 1
+
+}
+XComboBoxWidgetClass Category
+{
+ position 0.019900498 0.146666667
+ size 0.960199005 0.066666667
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "gui/fonts/metronbook14"
+ style Default
+ color 1 1 1 1
+
+}
+TextWidgetClass BodyLabel
+{
+ position 0.019900498 0.253333333
+ size 0.716417910 0.033333333
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 12
+ text ""
+ color 0.713725 0.733333 0.768627 1
+ ignorepointer 1
+
+}
+TextWidgetClass Counter
+{
+ position 0.810945274 0.253333333
+ size 0.169154229 0.033333333
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 12
+ text ""
+ color 0.713725 0.733333 0.768627 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ComposeInput
+{
+ position 0.019900498 0.300000000
+ size 0.960199005 0.500000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+
+ {
+PanelWidgetClass ComposeInputEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.003333333
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ComposeInputEdge1
+{
+ position 0.000000000 0.996666667
+ size 1.000000000 0.003333333
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ComposeInputEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.001295337 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ComposeInputEdge3
+{
+ position 0.998704663 0.000000000
+ size 0.001295337 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+MultilineEditBoxWidgetClass Description
+{
+ position 0.015544041 0.040000000
+ size 0.968911917 0.920000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style DayZNormal
+ font "gui/fonts/metronbook16"
+ "exact text" 1
+ "exact text size" 0
+ color 0.949020 0.949020 0.949020 1
+
+}
+ }
+}
+CheckBoxWidgetClass Confirmation
+{
+ position 0.019900498 0.820000000
+ size 0.960199005 0.066666667
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ text ""
+
+}
+ButtonWidgetClass Create
+{
+ position 0.681592040 0.900000000
+ size 0.298507463 0.073333333
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass CreateBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.207843 0.341176 0.490196 1
+ ignorepointer 1
+
+}
+PanelWidgetClass CreateEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.022727273
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.568627 0.709804 0.909804 1
+ ignorepointer 1
+
+}
+PanelWidgetClass CreateEdge1
+{
+ position 0.000000000 0.977272727
+ size 1.000000000 0.022727273
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.568627 0.709804 0.909804 1
+ ignorepointer 1
+
+}
+PanelWidgetClass CreateEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.004166667 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.568627 0.709804 0.909804 1
+ ignorepointer 1
+
+}
+PanelWidgetClass CreateEdge3
+{
+ position 0.995833333 0.000000000
+ size 0.004166667 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.568627 0.709804 0.909804 1
+ ignorepointer 1
+
+}
+ }
+}
+ }
+}
+PanelWidgetClass ThreadPanel
+{
+ position 0.313333333 0.124324324
+ size 0.670000000 0.810810811
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.125490 0.137255 0.160784 1
+
+ {
+TextWidgetClass ThreadTitle
+{
+ position 0.019900498 0.020000000
+ size 0.522388060 0.046666667
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 17
+ text ""
+ color 0.949020 0.949020 0.949020 1
+ ignorepointer 1
+
+}
+TextWidgetClass ThreadStatus
+{
+ position 0.562189055 0.026666667
+ size 0.218905473 0.040000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 12
+ text ""
+ color 0.949020 0.949020 0.949020 1
+ ignorepointer 1
+
+}
+ButtonWidgetClass ThreadToolsToggle
+{
+ position 0.810945274 0.013333333
+ size 0.169154229 0.066666667
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass ThreadToolsToggleBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ThreadToolsToggleEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ThreadToolsToggleEdge1
+{
+ position 0.000000000 0.975000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ThreadToolsToggleEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.007352941 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ThreadToolsToggleEdge3
+{
+ position 0.992647059 0.000000000
+ size 0.007352941 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+MultilineTextWidgetClass ThreadMeta
+{
+ position 0.019900498 0.086666667
+ size 0.960199005 0.046666667
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 12
+ text ""
+ color 0.713725 0.733333 0.768627 1
+ ignorepointer 1
+ wrap 1
+
+}
+ScrollWidgetClass ConversationScroll
+{
+ position 0.019900498 0.146666667
+ size 0.960199005 0.586666667
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+
+ {
+PanelWidgetClass MessageStack
+{
+ position 0.000000000 0.000000000
+ size 0.974093264 0.002840909
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 1
+ hexactsize 0
+ vexactsize 1
+ visible 1
+ style rover_sim_colorable
+ color 0.125490 0.137255 0.160784 1
+
+}
+ }
+}
+PanelWidgetClass ThreadSelectionPanel
+{
+ position 0.019900498 0.146666667
+ size 0.960199005 0.586666667
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+
+ {
+MultilineEditBoxWidgetClass ThreadSelection
+{
+ position 0.015544041 0.034090909
+ size 0.968911917 0.931818182
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style DayZNormal
+ font "gui/fonts/metronbook16"
+ "exact text" 1
+ "exact text size" 0
+ color 0.949020 0.949020 0.949020 1
+
+}
+ }
+}
+PanelWidgetClass ThreadTools
+{
+ position 0.019900498 0.146666667
+ size 0.960199005 0.253333333
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.125490 0.137255 0.160784 1
+
+ {
+ButtonWidgetClass Latest
+{
+ position 0.000000000 0.000000000
+ size 0.160621762 0.263157895
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass LatestBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+ ignorepointer 1
+
+}
+PanelWidgetClass LatestEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass LatestEdge1
+{
+ position 0.000000000 0.975000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass LatestEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.008064516 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass LatestEdge3
+{
+ position 0.991935484 0.000000000
+ size 0.008064516 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+ButtonWidgetClass OlderMessages
+{
+ position 0.176165803 0.000000000
+ size 0.129533679 0.263157895
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass OlderMessagesBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OlderMessagesEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OlderMessagesEdge1
+{
+ position 0.000000000 0.975000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OlderMessagesEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.010000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass OlderMessagesEdge3
+{
+ position 0.990000000 0.000000000
+ size 0.010000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+ButtonWidgetClass SelectThread
+{
+ position 0.694300518 0.000000000
+ size 0.145077720 0.263157895
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass SelectThreadBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+ ignorepointer 1
+
+}
+PanelWidgetClass SelectThreadEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass SelectThreadEdge1
+{
+ position 0.000000000 0.975000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass SelectThreadEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.008928571 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass SelectThreadEdge3
+{
+ position 0.991071429 0.000000000
+ size 0.008928571 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+ButtonWidgetClass CopyThread
+{
+ position 0.854922280 0.000000000
+ size 0.145077720 0.263157895
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass CopyThreadBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+ ignorepointer 1
+
+}
+PanelWidgetClass CopyThreadEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass CopyThreadEdge1
+{
+ position 0.000000000 0.975000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass CopyThreadEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.008928571 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass CopyThreadEdge3
+{
+ position 0.991071429 0.000000000
+ size 0.008928571 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+PanelWidgetClass AdminActions
+{
+ position 0.000000000 0.342105263
+ size 1.000000000 0.263157895
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.125490 0.137255 0.160784 1
+
+ {
+ButtonWidgetClass Claim
+{
+ position 0.000000000 0.000000000
+ size 0.217616580 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass ClaimBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ClaimEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ClaimEdge1
+{
+ position 0.000000000 0.975000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ClaimEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.005952381 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ClaimEdge3
+{
+ position 0.994047619 0.000000000
+ size 0.005952381 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+ButtonWidgetClass Resolve
+{
+ position 0.233160622 0.000000000
+ size 0.217616580 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass ResolveBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.650980 0.113725 0.168627 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ResolveEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ResolveEdge1
+{
+ position 0.000000000 0.975000000
+ size 1.000000000 0.025000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ResolveEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.005952381 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ResolveEdge3
+{
+ position 0.994047619 0.000000000
+ size 0.005952381 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+ }
+}
+MultilineTextWidgetClass TechnicalInfo
+{
+ position 0.000000000 0.684210526
+ size 1.000000000 0.315789474
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 12
+ text ""
+ color 0.713725 0.733333 0.768627 1
+ ignorepointer 1
+ wrap 1
+
+}
+ }
+}
+TextWidgetClass ReplyLabel
+{
+ position 0.019900498 0.753333333
+ size 0.960199005 0.033333333
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 12
+ text ""
+ color 0.713725 0.733333 0.768627 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ReplyInput
+{
+ position 0.019900498 0.800000000
+ size 0.706467662 0.173333333
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+
+ {
+PanelWidgetClass ReplyInputEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.009615385
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ReplyInputEdge1
+{
+ position 0.000000000 0.990384615
+ size 1.000000000 0.009615385
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ReplyInputEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.001760563 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ReplyInputEdge3
+{
+ position 0.998239437 0.000000000
+ size 0.001760563 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+MultilineEditBoxWidgetClass ReplyDescription
+{
+ position 0.021126761 0.115384615
+ size 0.957746479 0.769230769
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style DayZNormal
+ font "gui/fonts/metronbook16"
+ "exact text" 1
+ "exact text size" 0
+ color 0.949020 0.949020 0.949020 1
+
+}
+ }
+}
+TextWidgetClass ReplyCounter
+{
+ position 0.746268657 0.800000000
+ size 0.233830846 0.033333333
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 12
+ text ""
+ color 0.713725 0.733333 0.768627 1
+ ignorepointer 1
+
+}
+ButtonWidgetClass Reply
+{
+ position 0.746268657 0.900000000
+ size 0.233830846 0.073333333
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass ReplyBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.207843 0.341176 0.490196 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ReplyEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.022727273
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.568627 0.709804 0.909804 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ReplyEdge1
+{
+ position 0.000000000 0.977272727
+ size 1.000000000 0.022727273
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.568627 0.709804 0.909804 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ReplyEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.005319149 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.568627 0.709804 0.909804 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ReplyEdge3
+{
+ position 0.994680851 0.000000000
+ size 0.005319149 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.568627 0.709804 0.909804 1
+ ignorepointer 1
+
+}
+ }
+}
+ }
+}
+TextWidgetClass Version
+{
+ position 0.016666667 0.951351351
+ size 0.150000000 0.027027027
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 12
+ text ""
+ color 0.713725 0.733333 0.768627 1
+ ignorepointer 1
+
+}
+TextWidgetClass Status
+{
+ position 0.180000000 0.951351351
+ size 0.803333333 0.027027027
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 12
+ text ""
+ color 0.713725 0.733333 0.768627 1
+ ignorepointer 1
+
+}
+PanelWidgetClass CloseConfirm
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.090196 0.098039 0.113725 1
+
+ {
+PanelWidgetClass CloseDialog
+{
+ position 0.283333333 0.351351351
+ size 0.433333333 0.297297297
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+
+ {
+TextWidgetClass CloseTitle
+{
+ position 0.046153846 0.109090909
+ size 0.907692308 0.127272727
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 17
+ text ""
+ color 0.949020 0.949020 0.949020 1
+ ignorepointer 1
+
+}
+MultilineTextWidgetClass CloseExplanation
+{
+ position 0.046153846 0.290909091
+ size 0.907692308 0.290909091
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ font "DZTickets/gui/fonts/sdf_MetronBook24"
+ "exact text" 1
+ "exact text size" 15
+ text ""
+ color 0.713725 0.733333 0.768627 1
+ ignorepointer 1
+ wrap 1
+
+}
+ButtonWidgetClass CancelClose
+{
+ position 0.046153846 0.690909091
+ size 0.430769231 0.200000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass CancelCloseBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.156863 0.172549 0.200000 1
+ ignorepointer 1
+
+}
+PanelWidgetClass CancelCloseEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.022727273
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass CancelCloseEdge1
+{
+ position 0.000000000 0.977272727
+ size 1.000000000 0.022727273
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass CancelCloseEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.004464286 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass CancelCloseEdge3
+{
+ position 0.995535714 0.000000000
+ size 0.004464286 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+ButtonWidgetClass ConfirmClose
+{
+ position 0.523076923 0.690909091
+ size 0.430769231 0.200000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style Default
+ text ""
+
+ {
+PanelWidgetClass ConfirmCloseBackground
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.650980 0.113725 0.168627 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ConfirmCloseEdge0
+{
+ position 0.000000000 0.000000000
+ size 1.000000000 0.022727273
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ConfirmCloseEdge1
+{
+ position 0.000000000 0.977272727
+ size 1.000000000 0.022727273
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ConfirmCloseEdge2
+{
+ position 0.000000000 0.000000000
+ size 0.004464286 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+PanelWidgetClass ConfirmCloseEdge3
+{
+ position 0.995535714 0.000000000
+ size 0.004464286 1.000000000
+ halign left_ref
+ valign top_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ visible 1
+ style rover_sim_colorable
+ color 0.345098 0.380392 0.435294 1
+ ignorepointer 1
+
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
